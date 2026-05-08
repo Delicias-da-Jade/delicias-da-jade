@@ -340,7 +340,7 @@ function finalizarPedido() {
 
     // Monta o link SINCRONAMENTE — dentro do contexto do clique do usuário
     // Técnica compatível com Safari/iOS: <a>.click() não é bloqueado como popup
-    var url = "https://wa.me/5569992295106?text=" + encodeURIComponent(mensagem);
+    var url = "https://wa.me/5569992291544?text=" + encodeURIComponent(mensagem); /* ← número atualizado */
     var link = document.createElement("a");
     link.href = url;
     link.target = "_blank";
